@@ -16,53 +16,12 @@
         <tags>mvc web typescript</tags>
 		<license type="expression">MIT</license>	
         <dependencies>
-          <group targetFramework="net45" />
-		  <group targetFramework="net461" />
-          <group targetFramework="netstandard1.5">
-            <dependency id="System.Runtime.Loader" version="4.3.0" exclude="Build,Analyzers" />
-            <dependency id="NETStandard.Library" version="1.6.1" exclude="Build,Analyzers" />
-            <dependency id="System.Xml.XmlSerializer" version="4.3.0" exclude="Build,Analyzers" />                 
-          </group>
-          <group targetFramework="netcoreapp1.0">
-            <dependency id="Microsoft.NETCore.App" version="1.0.5" exclude="Build,Analyzers" />
-            <dependency id="System.Xml.XmlSerializer" version="4.3.0" exclude="Build,Analyzers" />
-            <dependency id="System.Runtime.Loader" version="4.3.0" exclude="Build,Analyzers" />
-          </group>  
-			<group targetFramework="netcoreapp1.1">
-            <dependency id="Microsoft.NETCore.App" version="1.0.5" exclude="Build,Analyzers" />
-            <dependency id="System.Xml.XmlSerializer" version="4.3.0" exclude="Build,Analyzers" />
-            <dependency id="System.Runtime.Loader" version="4.3.0" exclude="Build,Analyzers" />
-          </group>  		  
-          <group targetFramework="netcoreapp2.0">
-            <dependency id="System.Runtime.Loader" version="4.3.0" exclude="Build,Analyzers" />
-            <dependency id="Microsoft.NETCore.App" version="2.0.0" exclude="Build,Analyzers" />
-            <dependency id="System.Xml.XmlSerializer" version="4.3.0" exclude="Build,Analyzers" />
-          </group>
-		  <group targetFramework="netcoreapp2.1">
-            <dependency id="System.Runtime.Loader" version="4.3.0" exclude="Build,Analyzers" />
-            <dependency id="Microsoft.NETCore.App" version="2.0.0" exclude="Build,Analyzers" />
-            <dependency id="System.Xml.XmlSerializer" version="4.3.0" exclude="Build,Analyzers" />
-          </group>
-		  <group targetFramework="netcoreapp2.2">
-            <dependency id="System.Runtime.Loader" version="4.3.0" exclude="Build,Analyzers" />
-            <dependency id="Microsoft.NETCore.App" version="2.0.0" exclude="Build,Analyzers" />
-            <dependency id="System.Xml.XmlSerializer" version="4.3.0" exclude="Build,Analyzers" />
-          </group>
           <group targetFramework="netstandard2.0">
             <dependency id="System.Runtime.Loader" version="4.3.0" exclude="Build,Analyzers" />
             <dependency id="System.Xml.XmlSerializer" version="4.3.0" exclude="Build,Analyzers" />            
           </group>
-          <group targetFramework="netcoreapp3.0">
-			<dependency id="System.Runtime.Loader" version="4.3.0" exclude="Build,Analyzers" />
-            <dependency id="System.Xml.XmlSerializer" version="4.3.0" exclude="Build,Analyzers" />  
-		  </group>
-		  <group targetFramework="netcoreapp3.1">
-			<dependency id="System.Runtime.Loader" version="4.3.0" exclude="Build,Analyzers" />
-            <dependency id="System.Xml.XmlSerializer" version="4.3.0" exclude="Build,Analyzers" />  
-		  </group>          
-		  <group targetFramework="net5.0" />
-		  <group targetFramework="net6.0" />
 		  <group targetFramework="net7.0" />
+		  <group targetFramework="net8.0" />
         </dependencies>
         <frameworkAssemblies>
             <frameworkAssembly assemblyName="Microsoft.Build" targetFramework=".NETFramework4.5" />
